@@ -60,15 +60,6 @@ a:hover{
 
 .header__lista li a{
     color: var(--color-primary);
-}
-
-.icon-menu img{
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    width: 2.5rem;
-} 
-
-.image-profile img{
-    border-radius: 5rem;
+    width: 100%;
+    height: 100%a;
 }
