@@ -4,7 +4,7 @@ html {
 }
 
 :root{
-    --color-black:#000000;
+    --color-primary:#212121;
 }
 
 *,
@@ -29,7 +29,10 @@ body {
 
 a{
     text-decoration: none;
-    cursor: pointer;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 .header{
@@ -39,23 +42,33 @@ a{
 .header__nav{
     display: flex;
     justify-content: flex-end;
+    height: inherit;
+    align-items: center;
 }
 
 .header__lista{
     display: flex;
-    justify-content: space-between;
-    height: 5rem;
     align-items: center;
-
 }
 
 .header__lista li{
-    margin-right: 2rem;
+    margin: 1.5rem;
     padding: 0;
     list-style: none;
+    /* width: 100%; */
 }
 
 .header__lista li a{
-    padding: 0.5rem;
-    color: var(--color-black);
+    color: var(--color-primary);
+}
+
+.icon-menu img{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 2.5rem;
+} 
+
+.image-profile img{
+    border-radius: 5rem;
 }
