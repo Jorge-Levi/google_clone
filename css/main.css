@@ -5,6 +5,7 @@ html {
 
 :root{
     --color-primary:#212121;
+    --color-border:#ddd;
 }
 
 *,
@@ -67,8 +68,9 @@ a:hover{
 /* main */
 
 .main{
+    margin: 0 auto;
     margin-top: 15rem;
-    width: 100%;
+    width: 50%;
     height: 30rem;
     text-align: center;
 }
@@ -76,9 +78,33 @@ a:hover{
 .main-logo{
     width: 53rem;
     margin: 0 auto;
-    margin-bottom: 3.5rem;
 }
 
 .main-logo img{
     width: 30rem;
+}
+
+.main-form{
+    margin-top: 5.2rem;
+    margin-bottom: 5.2rem;
+}
+
+/* INPUT */
+.main-input-container{
+    border: 0.1rem solid var(--color-border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10rem;
+    padding: 1rem 2rem;
+    margin: 0 auto;
+    box-shadow: 0px 0px 0.5rem var(--color-border);
+}
+
+.main-input-container input{
+    border: none;
+    width: 100%;
+    margin: 0rem 1rem;
+    outline: none;
+    font: 16px arial,sans-serif;
 }
