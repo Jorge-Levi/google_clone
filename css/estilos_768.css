@@ -1,0 +1,21 @@
+.main{
+    width: 80%;
+}
+
+.buttons{
+    /* display:block; */
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 5.2rem;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.buttons div{
+    display: inline;
+}
+
+.buttons-btn{
+    display: inline-block;
+    width: 16rem;
+}
