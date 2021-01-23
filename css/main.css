@@ -6,6 +6,7 @@ html {
 :root{
     --color-primary:#212121;
     --color-border:#ddd;
+    --color-font-footer: #c6c6c6;
 }
 
 *,
@@ -152,6 +153,7 @@ a:hover{
 .footer{
     margin-top: 1.5rem;
     background-color: #f2f2f2;
+    color: var(--color-font-footer);
 
 }
 
@@ -159,7 +161,6 @@ a:hover{
     display: block;
     width: 100%;
     margin: 0 auto;
-    color: #798088;
     padding: 0.5rem 1rem;
     border-bottom: 0.1rem solid #dadce0;
 }
@@ -178,6 +179,7 @@ a:hover{
     margin-right: 1rem;
     margin-bottom: 1rem;
     width: 9rem;
+    color: var(--color-font-footer);
 }
 
 .footer__down-left a:last-child,
